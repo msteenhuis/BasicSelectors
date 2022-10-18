@@ -1,0 +1,18 @@
+.table, th, td {
+    width: auto;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tr > th{
+   background-color: blue;
+   color: white;
+}
+
+.rows:nth-child(odd) {
+    background-color: grey;
+}
+
+.rows:nth-child(even) {
+    background-color: lightgrey;
+}
